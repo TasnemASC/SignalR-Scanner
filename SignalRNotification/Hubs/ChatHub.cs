@@ -32,9 +32,9 @@ namespace SignalRNotification.Hubs
             // Clients.Group
         }
 
-        public void ScanCompleted()
+        public void ScanCompleted(string folderName)
         {
-
+            Clients.All.SendAsync("ScanCompleted", folderName);
         }
     }
 }

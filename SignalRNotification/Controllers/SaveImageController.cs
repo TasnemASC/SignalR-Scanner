@@ -21,23 +21,50 @@ namespace SignalRNotification.Controllers
                 string directoryPath = $"wwwroot/images/{folderName}"; // Adjust the path as needed
 
                 // Create the directory if it doesn't exist
-                Directory.CreateDirectory(directoryPath);
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath);
+                }
+
 
                 // Generate a unique file name
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                //  string fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                string fileName = image.FileName;// Path.GetExtension(image.FileName);
 
                 // Combine the directory path with the file name
                 string filePath = Path.Combine(directoryPath, fileName);
 
                 // Save the file to the server
-                using (FileStream stream = new FileStream(filePath, FileMode.Create))
+                using (FileStream stream = new(filePath, FileMode.Create))
                 {
                     await image.CopyToAsync(stream);
                 }
 
                 // Optionally, return the URL or path of the saved image
-                string imageUrl = Url.Content("~/images/" + fileName);
+                string imageUrl = Url.Content($"~/images/{folderName}/" + fileName);
                 return Ok(new { imageUrl });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("GetAllImage")]
+        public async Task<IActionResult> GetAllImage(string folderName)
+        {
+            string directoryPath = $"wwwroot/images/{folderName}";
+            try
+            {
+                // Get the list of image file names
+                string[] imageFileNames = Directory.GetFiles(directoryPath)
+                                                   .Select(Path.GetFileName)
+                                                    .ToArray();
+                string baseUrl = $"{Request.Scheme}://{Request.Host}";
+                List<string> imageUrls = imageFileNames.Select(fileName => $"{baseUrl}/images/{folderName}/{fileName}").ToList();
+
+                // Return the list of image file names
+                return Ok(imageUrls);
             }
             catch (Exception ex)
             {

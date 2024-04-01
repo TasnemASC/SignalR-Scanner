@@ -1,3 +1,4 @@
+using Microsoft.OpenApi.Models;
 using SignalRNotification.Hubs;
 
 namespace SignalRNotification
@@ -10,6 +11,10 @@ namespace SignalRNotification
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
+            });
             builder.Services.AddSignalR();
             // builder.Services.AddScoped<IHubContext, HubContext>();
             var app = builder.Build();
@@ -25,7 +30,15 @@ namespace SignalRNotification
             app.UseRouting();
 
             // app.UseAuthorization();
+            app.UseSwagger();
 
+            // Enable middleware to serve SwaggerUI (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
+                c.RoutePrefix = string.Empty; // Set the UI route prefix to empty string (root)
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHub<ChatHub>("/chat");
