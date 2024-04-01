@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="signalr.min.js"></script>
+<div class="alert alert-info d-none">
+    
+</div>
+<h1>
+    MyChat
+    <div id="txtare" class="border-1 border-success w-100">
+
+    </div>
+</h1>
+<div>
+    <div class="form-group">
+        <label class="">Name</label>
+        <input type="text" id="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Message</label>
+        <input type="text" id="Message"  class="form-control"/>
+    </div>
+    <button onclick="sendMessage()" class="form-control btn-secondary">send</button>
+</div>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("http://localhost:5029//chat")
+        .build();
+    connection.on("Display", function (Name, Message){
+        document.querySelector("#txtare").innerHTML += Name + ": " + Message;
+
+    })
+    connection.on("Notify", function (Name, Message) {
+        document.querySelector(".alert").classList.remove("d-none");
+        document.querySelector(".alert").innerHTML = Name + "send Message said " + Message;
+        setTimeout(function (){
+            document.querySelector(".alert").classList.add("d-none");
+        },6000)
+
+    })
+    connection.start();
+    function Display(Name,Message) {
+
+        document.querySelector("#txtare").innerHTML+=Name+": "+Message;
+    }
+    function sendMessage(){
+        var uname = $("#Name").val();
+        var Message = $("#Message").val();
+        connection.invoke("SendMessage", uname, Message);
+    // Start the connection
+    //connection.start().then(() => {
+    //     Call the server method to send a message to a particular client
+    //        connection.invoke("SendMessage", uname, message);
+    //}).catch((error) => {
+    //    console.error(error);
+    //});
+    }
+</script>
+
+
+</body>
+</html>

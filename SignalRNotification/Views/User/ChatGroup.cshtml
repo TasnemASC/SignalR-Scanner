@@ -1,0 +1,57 @@
+﻿<script src="~/lib/microsoft-signalr/signalr.min.js"></script>
+<div class="alert alert-info d-none">
+    
+</div>
+<h1 hidden>
+    MyChat
+    <div id="txtare" class="border-1 border-success w-100">
+
+    </div>
+</h1>
+<div>
+    <div class="form-group" hidden>
+        <label class="">Name</label>
+        <input type="text" id="Name" class="form-control" />
+    </div>
+    <div class="form-group" hidden>
+        <label>Message</label>
+        <input type="text" id="Message"  class="form-control"/>
+    </div>
+    <button onclick="sendMessage()" class="form-control btn-secondary">Scan</button>
+</div>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chat")
+        .build();
+    connection.on("Display", function (Name, Message){
+        document.querySelector("#txtare").innerHTML += Name + ": " + Message;
+
+    })
+    connection.on("Notify", function (Name, Message) {
+        document.querySelector(".alert").classList.remove("d-none");
+        document.querySelector(".alert").innerHTML = Name + "send Message said " + Message;
+        setTimeout(function (){
+            document.querySelector(".alert").classList.add("d-none");
+        },6000)
+
+    })
+    connection.start().then(function(){
+        console.log("Connectio start");
+    });
+    function Display(Name,Message) {
+
+        document.querySelector("#txtare").innerHTML+=Name+": "+Message;
+    }
+    function sendMessage(){
+      //  var uname = $("#Name").val();
+        //var Message = $("#Message").val();
+        connection.invoke("SendMessage");//, uname, Message);
+    // Start the connection
+    //connection.start().then(() => {
+    //     Call the server method to send a message to a particular client
+    //        connection.invoke("SendMessage", uname, message);
+    //}).catch((error) => {
+    //    console.error(error);
+    //});
+    }
+</script>
