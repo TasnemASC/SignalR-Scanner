@@ -15,6 +15,7 @@ namespace SignalRNotification
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
             });
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddSignalR();
             // builder.Services.AddScoped<IHubContext, HubContext>();
             var app = builder.Build();
