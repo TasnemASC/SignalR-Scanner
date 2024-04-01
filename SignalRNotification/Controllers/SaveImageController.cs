@@ -7,33 +7,36 @@ namespace SignalRNotification.Controllers
     public class SaveImageController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> UploadImage(string folderName)
+        public async Task<IActionResult> UploadImage(IFormFile image, [FromForm] string folderName)
         {
             try
             {
-                // Check if the request contains a file
-                if (Request.Form.Files.Count == 0)
+                // Check if the image file is provided
+                if (image == null || image.Length == 0)
                 {
                     return BadRequest("No file uploaded.");
                 }
 
-                // Get the uploaded file
-                var file = Request.Form.Files[0];
+                // Specify the directory where you want to save the image
+                string directoryPath = $"wwwroot/images/{folderName}"; // Adjust the path as needed
 
-                // Validate the file type and size if needed
+                // Create the directory if it doesn't exist
+                Directory.CreateDirectory(directoryPath);
 
-                // Process the image data (e.g., resize, convert format)
+                // Generate a unique file name
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
 
-                // Save the image to a storage location (e.g., local file system)
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                var filePath = Path.Combine($"wwwroot/images/{folderName}", fileName);
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                // Combine the directory path with the file name
+                string filePath = Path.Combine(directoryPath, fileName);
+
+                // Save the file to the server
+                using (FileStream stream = new FileStream(filePath, FileMode.Create))
                 {
-                    await file.CopyToAsync(fileStream);
+                    await image.CopyToAsync(stream);
                 }
 
                 // Optionally, return the URL or path of the saved image
-                var imageUrl = Url.Content("~/images/" + fileName);
+                string imageUrl = Url.Content("~/images/" + fileName);
                 return Ok(new { imageUrl });
             }
             catch (Exception ex)
