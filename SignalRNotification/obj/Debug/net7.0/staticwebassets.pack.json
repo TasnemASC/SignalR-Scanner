@@ -1,263 +1,275 @@
 {
   "Files": [
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SignalRNotification.bundle.scp.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SignalRNotification.bundle.scp.css",
       "PackagePath": "staticwebassets\\SignalRNotification.bundle.scp.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\client\\New Text Document.txt",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\client\\New Text Document.txt",
       "PackagePath": "staticwebassets\\client\\New Text Document.txt"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\client\\client.html",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\client\\client.html",
       "PackagePath": "staticwebassets\\client\\client.html"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\client\\signalr.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\client\\signalr.min.js",
       "PackagePath": "staticwebassets\\client\\signalr.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\3b4ccfa8-54d7-4e4b-ac18-eea1b6ffc42a\\023cdc87-5cbd-454d-929c-f96d6387127d.jpg",
+      "PackagePath": "staticwebassets\\images\\3b4ccfa8-54d7-4e4b-ac18-eea1b6ffc42a\\023cdc87-5cbd-454d-929c-f96d6387127d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\hhh\\ffa35aab-c683-4744-bf50-180eff9bee5e.png",
+      "PackagePath": "staticwebassets\\images\\hhh\\ffa35aab-c683-4744-bf50-180eff9bee5e.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\jj\\Screenshot 2023-10-10 164639.png",
+      "PackagePath": "staticwebassets\\images\\jj\\Screenshot 2023-10-10 164639.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\wwwroot\\lib\\microsoft-signalr\\signalr.min.js",
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\lib\\microsoft-signalr\\signalr.min.js",
       "PackagePath": "staticwebassets\\lib\\microsoft-signalr\\signalr.min.js"
     },
     {

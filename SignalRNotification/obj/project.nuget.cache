@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "j7BQ7934Gx2RuIQbm+uBJeZ5ekGHPd2y9vVl8t5wtVJ8JJOINA//KswNMUUIDcU/kGAO151eMiFkudqvILOtGw==",
+  "dgSpecHash": "bqKVFc736vJoNg9fUoJOQL1b1sdIVklvBpb2Om3dB2RTDohxfgaJgpw9KSOfrOocuWib+JPKcX+OPJlNWAogvw==",
   "success": true,
-  "projectFilePath": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\Islam\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
