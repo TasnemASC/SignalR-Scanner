@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\SignalRNotification.csproj": {}
+    "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj": {}
   },
   "projects": {
-    "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\SignalRNotification.csproj": {
+    "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\SignalRNotification.csproj",
+        "projectUniqueName": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj",
         "projectName": "SignalRNotification",
-        "projectPath": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\SignalRNotification.csproj",
+        "projectPath": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\SignalRNotification.csproj",
         "packagesPath": "C:\\Users\\khale\\.nuget\\packages\\",
-        "outputPath": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalRNotification\\obj\\",
+        "outputPath": "D:\\Asc\\Corresponded\\Scanner\\SignalRNotification-master\\SignalR-Scanner\\SignalRNotification\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khale\\AppData\\Roaming\\NuGet\\NuGet.Config",
