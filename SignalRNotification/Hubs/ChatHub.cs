@@ -52,7 +52,7 @@ namespace SignalRNotification.Hubs
             //var pdfUrl = GeneratePdf(folderName);
             //GetAllImage(folderName);
             //Clients.All.SendAsync("ScanCompleted", folderName);
-            Clients.All.SendAsync("ScanCompleted", "");
+            Clients.All.SendAsync("ScanCompleted", folderName);
         }
 
         public List<string> GetAllImage(string folderName)
