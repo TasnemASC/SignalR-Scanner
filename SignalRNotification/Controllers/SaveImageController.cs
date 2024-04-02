@@ -66,6 +66,7 @@ namespace SignalRNotification.Controllers
                 string[] imageFileNames = Directory.GetFiles(directoryPath)
                                                    .Select(Path.GetFileName)
                                                    .ToArray();
+
                 string baseUrl = $"{Request.Scheme}://{Request.Host}";
                 List<string> imageUrls = imageFileNames.Select(fileName => $"{baseUrl}/images/{folderName}/{fileName}").ToList();
 
@@ -114,7 +115,6 @@ namespace SignalRNotification.Controllers
                 float width = 0;
                 float height = 0;
 
-
                 // Add each image as a page in the PDF document
                 foreach (string imageFile in imageFiles)
                 {
@@ -122,14 +122,15 @@ namespace SignalRNotification.Controllers
                     Image image = Image.GetInstance(imageFile);
                     // image.Width = 8.5;
                     image.SetAbsolutePosition(0, 0);
-                    image.ScaleToFit(document.PageSize.Width, document.PageSize.Height);
+                    image.ScaleToFit(document.PageSize.Width, document.PageSize.Height - 2.0f);
                     document.Add(image);
                 }
 
                 document.Close();
             }
 
-            return Ok(Path.Combine(imagesDirectory, "images.pdf"));
+            //    string baseUrl = $"{Request.Scheme}://{Request.Host}//images//{folder}";
+            return Ok(Path.Combine(baseUrl, "images.pdf"));
         }
     }
 }
