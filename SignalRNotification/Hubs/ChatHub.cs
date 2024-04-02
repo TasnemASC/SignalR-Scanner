@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.SignalR;
 
 namespace SignalRNotification.Hubs
 {
@@ -7,9 +9,12 @@ namespace SignalRNotification.Hubs
         static Dictionary<string, string> keyConnectionIds = new Dictionary<string, string>();
         public static string? fid = null;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public ChatHub(IHttpContextAccessor httpContextAccessor)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ChatHub(IHttpContextAccessor httpContextAccessor,
+                       IWebHostEnvironment webHostEnvironment)
         {
             _httpContextAccessor = httpContextAccessor;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public override Task OnConnectedAsync()
@@ -30,20 +35,13 @@ namespace SignalRNotification.Hubs
             // Create the folder
             Directory.CreateDirectory($"wwwroot/images/{folderName}");
             Clients.All.SendAsync("startscan", $"{folderName}");
-            /* if (fid != null) {
-                 Clients.Clients(fid).SendAsync("Notify", Name, Message).Wait();
-             }*/
-
-            // Clients.all
-            // Clients.Clients
-            // Clients.Group
         }
 
         public void ScanCompleted(string folderName)
         {
-            var imgUrls = GetAllImage(folderName);
+            var pdfUrl = GeneratePdf(folderName);//GetAllImage(folderName);
             //Clients.All.SendAsync("ScanCompleted", folderName);
-            Clients.All.SendAsync("ScanCompleted", imgUrls);
+            Clients.All.SendAsync("ScanCompleted", pdfUrl);
         }
 
         public List<string> GetAllImage(string folderName)
@@ -66,6 +64,37 @@ namespace SignalRNotification.Hubs
             {
                 return null;
             }
+        }
+
+        public string GeneratePdf(string folder)
+        {
+            string wwwrootPath = _webHostEnvironment.WebRootPath;
+            string imagesDirectory = Path.Combine(wwwrootPath, "images");
+            imagesDirectory = Path.Combine(imagesDirectory, folder);
+            // Get image files
+            string[] imageFiles = Directory.GetFiles(imagesDirectory);
+
+            using (FileStream fs = new(Path.Combine(imagesDirectory, "images.pdf"), FileMode.Create))
+            {
+                Document document = new();
+                PdfWriter.GetInstance(document, fs);
+                document.Open();
+
+                // Add each image as a page in the PDF document
+                foreach (string imageFile in imageFiles)
+                {
+                    Image image = Image.GetInstance(imageFile);
+                    //   image.SetAbsolutePosition(0, 0);
+                    //  image.ScaleToFit(document.PageSize.Width,0);
+                    document.Add(image);
+                }
+
+                document.Close();
+            }
+
+            var request = _httpContextAccessor.HttpContext.Request;
+            string baseUrl = $"{request.Scheme}://{request.Host}";
+            return $"{baseUrl}/images/{folder}/images.pdf";
         }
     }
 }

@@ -29,8 +29,72 @@
       "PackagePath": "staticwebassets\\images\\0e46a3ba-ec66-43d2-a5de-d15571b1d057\\image.jpg"
     },
     {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_1.png",
+      "PackagePath": "staticwebassets\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_2.png",
+      "PackagePath": "staticwebassets\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_3.png",
+      "PackagePath": "staticwebassets\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_4.png",
+      "PackagePath": "staticwebassets\\images\\17c0262d-e3b2-4881-902f-0a240e102375\\scanned_image_4.png"
+    },
+    {
       "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\3b4ccfa8-54d7-4e4b-ac18-eea1b6ffc42a\\023cdc87-5cbd-454d-929c-f96d6387127d.jpg",
       "PackagePath": "staticwebassets\\images\\3b4ccfa8-54d7-4e4b-ac18-eea1b6ffc42a\\023cdc87-5cbd-454d-929c-f96d6387127d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_4.png",
+      "PackagePath": "staticwebassets\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_5.png",
+      "PackagePath": "staticwebassets\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_6.png",
+      "PackagePath": "staticwebassets\\images\\41f1aa06-55fd-4eed-9194-1e2b8dc4109f\\scanned_image_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_7.png",
+      "PackagePath": "staticwebassets\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_8.png",
+      "PackagePath": "staticwebassets\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_9.png",
+      "PackagePath": "staticwebassets\\images\\482266c7-427e-496f-aac6-2a33ca94e0ff\\scanned_image_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_1.png",
+      "PackagePath": "staticwebassets\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_2.png",
+      "PackagePath": "staticwebassets\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_3.png",
+      "PackagePath": "staticwebassets\\images\\7ca706ba-c538-45d4-8af0-5f63bd60899b\\scanned_image_3.png"
     },
     {
       "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\Islam\\2.png",
@@ -41,12 +105,64 @@
       "PackagePath": "staticwebassets\\images\\Islam\\3.png"
     },
     {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\Islam\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\Islam\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_1.png",
+      "PackagePath": "staticwebassets\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_2.png",
+      "PackagePath": "staticwebassets\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_3.png",
+      "PackagePath": "staticwebassets\\images\\a510f162-f514-4df8-b3f2-095281a3881a\\scanned_image_3.png"
+    },
+    {
       "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\b354e174-a615-48b2-9d83-36e01e28a7b8\\image.jpg",
       "PackagePath": "staticwebassets\\images\\b354e174-a615-48b2-9d83-36e01e28a7b8\\image.jpg"
     },
     {
       "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\d09cb2a7-a398-45a7-9569-b30c6b08f318\\image.jpg",
       "PackagePath": "staticwebassets\\images\\d09cb2a7-a398-45a7-9569-b30c6b08f318\\image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_1.png",
+      "PackagePath": "staticwebassets\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_2.png",
+      "PackagePath": "staticwebassets\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_3.png",
+      "PackagePath": "staticwebassets\\images\\f8f6b794-a4ce-4d06-b2e1-47a46476fbf1\\scanned_image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\images.pdf",
+      "PackagePath": "staticwebassets\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\images.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_4.png",
+      "PackagePath": "staticwebassets\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_5.png",
+      "PackagePath": "staticwebassets\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_6.png",
+      "PackagePath": "staticwebassets\\images\\f9eab56a-b1c9-4e80-a360-142425eafead\\scanned_image_6.png"
     },
     {
       "Id": "C:\\Users\\Islam\\Source\\Repos\\SignalR-Scanner\\SignalRNotification\\wwwroot\\images\\fd45be20-c82e-467e-9617-b8aab79bebb4\\scanned_image_1.png",
