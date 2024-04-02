@@ -79,7 +79,7 @@ namespace SignalRNotification.Controllers
             }
         }
 
-        [HttpGet("generate")]
+        [HttpGet("GeneratePdf")]
         public IActionResult GeneratePdf(string folder)
         {
             string wwwrootPath = _webHostEnvironment.WebRootPath;
