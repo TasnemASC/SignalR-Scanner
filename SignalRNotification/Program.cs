@@ -11,6 +11,14 @@ namespace SignalRNotification
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("*",
+                    builder => builder.WithOrigins("http://localhost:4200")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      .AllowCredentials());
+            });
             builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
@@ -25,6 +33,8 @@ namespace SignalRNotification
             {
                 //app.use
             }
+            app.UseCors("*");
+
 
             app.UseStaticFiles();
 
@@ -42,6 +52,7 @@ namespace SignalRNotification
             });
             app.UseEndpoints(endpoints =>
             {
+                //endpoints.MapHub<ChatHub>("/chat");
                 endpoints.MapHub<ChatHub>("/chat");
                 endpoints.MapControllerRoute(
                name: "default",
