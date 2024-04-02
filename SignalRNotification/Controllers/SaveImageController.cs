@@ -129,7 +129,7 @@ namespace SignalRNotification.Controllers
                 document.Close();
             }
 
-            //    string baseUrl = $"{Request.Scheme}://{Request.Host}//images//{folder}";
+            string baseUrl = $"{Request.Scheme}://{Request.Host}//images//{folder}";
             return Ok(Path.Combine(baseUrl, "images.pdf"));
         }
     }
