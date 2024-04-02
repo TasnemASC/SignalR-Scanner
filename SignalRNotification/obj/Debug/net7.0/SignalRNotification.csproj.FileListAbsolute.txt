@@ -100,3 +100,5 @@ C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\bin\Debug\net7.0
 C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\obj\Debug\net7.0\SignalRNotification.csproj.AssemblyReference.cache
 C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\obj\Debug\net7.0\SignalRNotification.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\obj\Debug\net7.0\SignalRNotification.csproj.CopyComplete
+C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Islam\Source\Repos\SignalR-Scanner\SignalRNotification\bin\Debug\net7.0\itextsharp.dll

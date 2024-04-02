@@ -6,6 +6,12 @@ namespace SignalRNotification.Hubs
     {
         static Dictionary<string, string> keyConnectionIds = new Dictionary<string, string>();
         public static string? fid = null;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public ChatHub(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
+
         public override Task OnConnectedAsync()
         {
             if (fid == null)
@@ -16,6 +22,7 @@ namespace SignalRNotification.Hubs
             keyConnectionIds[Context.ConnectionId] = Context.ConnectionId;
             return base.OnConnectedAsync();
         }
+
         public void SendMessage()
         {
             string folderName = Guid.NewGuid().ToString();
@@ -34,7 +41,31 @@ namespace SignalRNotification.Hubs
 
         public void ScanCompleted(string folderName)
         {
-            Clients.All.SendAsync("ScanCompleted", folderName);
+            var imgUrls = GetAllImage(folderName);
+            //Clients.All.SendAsync("ScanCompleted", folderName);
+            Clients.All.SendAsync("ScanCompleted", imgUrls);
+        }
+
+        public List<string> GetAllImage(string folderName)
+        {
+            var request = _httpContextAccessor.HttpContext.Request;
+            string directoryPath = $"wwwroot/images/{folderName}";
+            try
+            {
+                // Get the list of image file names
+                string[] imageFileNames = Directory.GetFiles(directoryPath)
+                                                   .Select(Path.GetFileName)
+                                                    .ToArray();
+                string baseUrl = $"{request.Scheme}://{request.Host}";
+                List<string> imageUrls = imageFileNames.Select(fileName => $"{baseUrl}/images/{folderName}/{fileName}").ToList();
+
+                // Return the list of image file names
+                return imageUrls;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SignalRNotification.Controllers
 {
@@ -6,6 +8,11 @@ namespace SignalRNotification.Controllers
     [ApiController]
     public class SaveImageController : ControllerBase
     {
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public SaveImageController(IWebHostEnvironment webHostEnvironment)
+        {
+            _webHostEnvironment = webHostEnvironment;
+        }
         [HttpPost]
         public async Task<IActionResult> UploadImage(IFormFile image, [FromForm] string folderName)
         {
@@ -25,7 +32,6 @@ namespace SignalRNotification.Controllers
                 {
                     Directory.CreateDirectory(directoryPath);
                 }
-
 
                 // Generate a unique file name
                 //  string fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
@@ -59,7 +65,7 @@ namespace SignalRNotification.Controllers
                 // Get the list of image file names
                 string[] imageFileNames = Directory.GetFiles(directoryPath)
                                                    .Select(Path.GetFileName)
-                                                    .ToArray();
+                                                   .ToArray();
                 string baseUrl = $"{Request.Scheme}://{Request.Host}";
                 List<string> imageUrls = imageFileNames.Select(fileName => $"{baseUrl}/images/{folderName}/{fileName}").ToList();
 
@@ -70,6 +76,53 @@ namespace SignalRNotification.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
+        }
+
+        [HttpGet("generate")]
+        public IActionResult GeneratePdf(string folder)
+        {
+            string wwwrootPath = _webHostEnvironment.WebRootPath;
+            string imagesDirectory = Path.Combine(wwwrootPath, "images");
+            imagesDirectory = Path.Combine(imagesDirectory, folder);
+            // Get image files
+            string[] imageFiles = Directory.GetFiles(imagesDirectory);
+
+            // Create PDF document
+            /* using (MemoryStream memoryStream = new())
+             {
+                 Document document = new();
+                 PdfWriter.GetInstance(document, memoryStream);
+                 document.Open();
+
+                 // Add each image as a page in the PDF document
+                 foreach (string imageFile in imageFiles)
+                 {
+                     Image image = Image.GetInstance(imageFile);
+                     document.Add(image);
+                 }
+
+                 document.Close();
+
+                 // Return PDF file as byte array
+                 return File(memoryStream.ToArray(), "application/pdf", "images.pdf");
+             }*/
+            using (FileStream fs = new(Path.Combine(imagesDirectory, "images.pdf"), FileMode.Create))
+            {
+                Document document = new();
+                PdfWriter.GetInstance(document, fs);
+                document.Open();
+
+                // Add each image as a page in the PDF document
+                foreach (string imageFile in imageFiles)
+                {
+                    Image image = Image.GetInstance(imageFile);
+                    document.Add(image);
+                }
+
+                document.Close();
+            }
+
+            return Ok(Path.Combine(imagesDirectory, "images.pdf"));
         }
     }
 }
