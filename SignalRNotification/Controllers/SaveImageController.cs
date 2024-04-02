@@ -111,11 +111,18 @@ namespace SignalRNotification.Controllers
                 Document document = new();
                 PdfWriter.GetInstance(document, fs);
                 document.Open();
+                float width = 0;
+                float height = 0;
+
 
                 // Add each image as a page in the PDF document
                 foreach (string imageFile in imageFiles)
                 {
+                    document.NewPage();
                     Image image = Image.GetInstance(imageFile);
+                    // image.Width = 8.5;
+                    image.SetAbsolutePosition(0, 0);
+                    image.ScaleToFit(document.PageSize.Width, document.PageSize.Height);
                     document.Add(image);
                 }
 

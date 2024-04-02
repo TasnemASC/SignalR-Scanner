@@ -37,6 +37,11 @@ namespace SignalRNotification.Hubs
             Clients.All.SendAsync("startscan", $"{folderName}");
         }
 
+        public void ImageUploaded(string foldername, string ImageName)
+        {
+            Clients.All.SendAsync("ImageUploaded", "{folderName}");
+        }
+
         public void ScanCompleted(string folderName)
         {
             var pdfUrl = GeneratePdf(folderName);//GetAllImage(folderName);
@@ -53,7 +58,8 @@ namespace SignalRNotification.Hubs
                 // Get the list of image file names
                 string[] imageFileNames = Directory.GetFiles(directoryPath)
                                                    .Select(Path.GetFileName)
-                                                    .ToArray();
+                                                   .ToArray();
+
                 string baseUrl = $"{request.Scheme}://{request.Host}";
                 List<string> imageUrls = imageFileNames.Select(fileName => $"{baseUrl}/images/{folderName}/{fileName}").ToList();
 
@@ -83,9 +89,13 @@ namespace SignalRNotification.Hubs
                 // Add each image as a page in the PDF document
                 foreach (string imageFile in imageFiles)
                 {
+                    document.NewPage();
+
                     Image image = Image.GetInstance(imageFile);
-                    //   image.SetAbsolutePosition(0, 0);
-                    //  image.ScaleToFit(document.PageSize.Width,0);
+                    image.Width = 8.5f;
+
+                    image.SetAbsolutePosition(0, 0);
+                    // image.ScaleToFit(document.PageSize.Width, document.PageSize.Height);
                     document.Add(image);
                 }
 
