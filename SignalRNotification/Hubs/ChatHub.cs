@@ -37,16 +37,22 @@ namespace SignalRNotification.Hubs
             Clients.All.SendAsync("startscan", $"{folderName}");
         }
 
-        public void ImageUploaded(string foldername, string ImageName)
+        public void ImageUploaded(string ImageName)
         {
-            Clients.All.SendAsync("ImageUploaded", "{folderName}");
+            var request = _httpContextAccessor.HttpContext.Request;
+
+            string baseUrl = $"{request.Scheme}://{request.Host}";
+            string imagePath = $"{baseUrl}/images/{ImageName}";
+
+            Clients.All.SendAsync("ImageUploaded", $"{imagePath}");
         }
 
         public void ScanCompleted(string folderName)
         {
-            var pdfUrl = GeneratePdf(folderName);//GetAllImage(folderName);
+            //var pdfUrl = GeneratePdf(folderName);
+            //GetAllImage(folderName);
             //Clients.All.SendAsync("ScanCompleted", folderName);
-            Clients.All.SendAsync("ScanCompleted", pdfUrl);
+            Clients.All.SendAsync("ScanCompleted", "");
         }
 
         public List<string> GetAllImage(string folderName)
@@ -92,7 +98,7 @@ namespace SignalRNotification.Hubs
                     document.NewPage();
 
                     Image image = Image.GetInstance(imageFile);
-                    image.Width = 8.5f;
+                    //  image.Width = 8.5f;
 
                     image.SetAbsolutePosition(0, 0);
                     // image.ScaleToFit(document.PageSize.Width, document.PageSize.Height);
