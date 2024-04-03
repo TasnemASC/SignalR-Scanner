@@ -33,8 +33,8 @@ namespace SignalRNotification
             {
                 //app.use
             }
-            app.UseCors("*");
 
+            app.UseCors("*");
 
             app.UseStaticFiles();
 
@@ -53,7 +53,7 @@ namespace SignalRNotification
             app.UseEndpoints(endpoints =>
             {
                 //endpoints.MapHub<ChatHub>("/chat");
-                endpoints.MapHub<ChatHub>("/chat");
+                endpoints.MapHub<ScannerHub>("/Scanner");
                 endpoints.MapControllerRoute(
                name: "default",
                pattern: "{controller=Home}/{action=Index}/{id?}");
