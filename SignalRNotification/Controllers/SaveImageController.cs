@@ -1,8 +1,10 @@
 ﻿//using iTextSharp.text;
 //using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using PdfSharpCore.Drawing;
 using PdfSharpCore.Pdf;
+using SignalRNotification.Hubs;
 namespace SignalRNotification.Controllers
 {
     [Route("api/[controller]")]
@@ -10,9 +12,11 @@ namespace SignalRNotification.Controllers
     public class SaveImageController : ControllerBase
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
-        public SaveImageController(IWebHostEnvironment webHostEnvironment)
+        IHubContext<ScannerHub> _hubContext;
+        public SaveImageController(IWebHostEnvironment webHostEnvironment, IHubContext<ScannerHub> hubContext)
         {
             _webHostEnvironment = webHostEnvironment;
+            _hubContext = hubContext;
         }
         [HttpPost]
         public async Task<IActionResult> UploadImage(IFormFile image, [FromForm] string folderName)
@@ -49,6 +53,7 @@ namespace SignalRNotification.Controllers
 
                 // Optionally, return the URL or path of the saved image
                 string imageUrl = Url.Content($"~/images/{folderName}/" + fileName);
+                await _hubContext.Clients.All.SendAsync("ImageUploaded", imageUrl);
                 return Ok(new { imageUrl });
             }
             catch (Exception ex)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRNotification")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d8c91f25f3026713447343bf8ed98d0b2309f10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+837fd668779f7d688f9e47dae47544bd801cfd7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRNotification")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRNotification")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
