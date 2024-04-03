@@ -1,7 +1,8 @@
-﻿using iTextSharp.text;
-using iTextSharp.text.pdf;
+﻿//using iTextSharp.text;
+//using iTextSharp.text.pdf;
 using Microsoft.AspNetCore.Mvc;
-
+using PdfSharpCore.Drawing;
+using PdfSharpCore.Pdf;
 namespace SignalRNotification.Controllers
 {
     [Route("api/[controller]")]
@@ -107,6 +108,8 @@ namespace SignalRNotification.Controllers
                  // Return PDF file as byte array
                  return File(memoryStream.ToArray(), "application/pdf", "images.pdf");
              }*/
+
+            /*
             using (FileStream fs = new(Path.Combine(imagesDirectory, "images.pdf"), FileMode.Create))
             {
                 Document document = new();
@@ -127,10 +130,32 @@ namespace SignalRNotification.Controllers
                 }
 
                 document.Close();
+            }*/
+
+            PdfDocument document = new();
+
+            // Iterate through the list of image paths
+            foreach (string imagePath in imageFiles)
+            {
+                // Add a page to the document
+                PdfPage page = document.AddPage();
+
+                // Create a graphics object for the page
+                XGraphics gfx = XGraphics.FromPdfPage(page);
+
+                // Load the image
+                XImage image = XImage.FromFile(imagePath);
+
+                gfx.DrawImage(image, 0, 0, page.Width, page.Height);
+
             }
 
+            // Save the document to a file (replace "output.pdf" with the desired output file name)
+            document.Save(Path.Combine(imagesDirectory, "output.pdf"));
+
             string baseUrl = $"{Request.Scheme}://{Request.Host}//images//{folder}";
-            return Ok(Path.Combine(baseUrl, "images.pdf"));
+            // return Ok(Path.Combine(baseUrl, "images.pdf"));
+            return Ok(Path.Combine(baseUrl, "output.pdf"));
         }
     }
 }
